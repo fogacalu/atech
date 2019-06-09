@@ -2,12 +2,12 @@
 
 Prerequisites to run the tests:
 - Have the following installed:
-Java Development Kit (JDK)
-Eclipse IDE for Java Developers
-Selenium Java Client Driver
-Geckodriver
-TestNG
-Firefox browser
+- Java Development Kit (JDK)
+- Eclipse IDE for Java Developers
+- Selenium Java Client Driver
+- Geckodriver
+- TestNG
+- Firefox browser
 
 Eclipse must be configured to be used with Selenium Webdriver
 
