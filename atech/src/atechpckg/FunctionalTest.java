@@ -16,20 +16,13 @@ public class FunctionalTest {
 
 	
 	@BeforeMethod
-//	@BeforeClass
 	public static void setUp(){
 		System.setProperty("webdriver.gecko.driver", "c:\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
-//	@After
-//	public void cleanUp(){
-//		driver.manage().deleteAllCookies();
-//	}
-	
 	@AfterMethod
-//	@AfterClass
 	public static void tearDown(){
 		driver.close();
 	}	

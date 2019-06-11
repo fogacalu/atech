@@ -12,7 +12,6 @@ public class InvalidInputsTest extends FunctionalTest {
 		driver.get("https://atech-airlines-ui-staging.herokuapp.com/");
 		
 		//Invalid Dates for testing "Partida" and "Chegada" fields
-//		String[] invalidDates = { "aaaa", "123!%abc", "20-20-20", "00-00-0000" };
 		String[] invalidDates = { "aaaa" , "abc!%123", "00/00/0000" , "15/15/2015" };
 		
 		InputPage InputPage = new InputPage(driver);
