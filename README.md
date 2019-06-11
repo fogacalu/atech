@@ -14,3 +14,6 @@ Eclipse must be configured to be used with Selenium Webdriver
 Steps to run the tests:
 - Import "atech" project into Eclipse
 - Right click on the atech Project -> Run As -> TestNG Test
+
+Documentation:
+Start Reading it by the "Plano de Testes.docx"
